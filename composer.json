@@ -1,0 +1,41 @@
+{
+    "name": "tmoiseenko/customerservice",
+    "description": "A package for creating a General user entity, with the ability to save his actions in the application before authorization and subsequent linking of the received data with the authorized user.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timur Moiseenko",
+            "email": "angrav6@gmail.com",
+            "homepage": "tmoiseenko.uz"
+        }
+    ],
+    "homepage": "https://github.com/Tmoiseenko/customerservice",
+    "keywords": ["Laravel", "CustomerService"],
+    "require": {
+        "illuminate/support": "~9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tmoiseenko\\CustomerService\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tmoiseenko\\CustomerService\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tmoiseenko\\CustomerService\\CustomerServiceServiceProvider"
+            ],
+            "aliases": {
+                "CustomerService": "Tmoiseenko\\CustomerService\\Facades\\CustomerService"
+            }
+        }
+    }
+}
