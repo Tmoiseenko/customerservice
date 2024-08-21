@@ -1,5 +1,5 @@
 {
-    "name": "tmoiseenko/customer-service",
+    "name": "tmoiseenko/laravel-customer-service",
     "description": "A package for creating a General user entity, with the ability to save his actions in the application before authorization and subsequent linking of the received data with the authorized user.",
     "license": "MIT",
     "authors": [
