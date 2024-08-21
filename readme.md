@@ -17,16 +17,15 @@ composer require tmoiseenko/customerservice
 
 ## Usage
 
-**create** - принимает в качестве аргумента hash для создания записи в таблице Customer.
+**create** - takes a hash as an argument to create a record in the Customer table.
 
-**getByHash** - принимает в качестве аргумента hash для получения конкретного Customer.
+**getByHash** - takes a hash as an argument to get a specific Customer.
 
-**associateWithUser** - принимает в качестве аргументов hash и идентификатор пользователя для Customer с конкретным пользователем.
+**associateWithUser** - takes a hash and a user ID for a Customer with a specific user as arguments.
 
-**removeByHash** - принимает в качестве аргумента hash для удаления Customer.
+**removeByHash** - takes a hash as an argument to delete a Customer.
 
-**checkIsNotCustomerInDb** - принимает в качестве аргумента hash для проверки существует ли Customer  в базе данных с таким hash.
-
+**checkIsNotCustomerInDb** - takes a hash as an argument to check if a Customer with that hash exists in the database.
 
 ## Testing
 
